@@ -1,0 +1,15 @@
+C:\Users\Utente\Coding\personal-code\.net\FileApp\bin\Debug\net8.0\FileApp.exe
+C:\Users\Utente\Coding\personal-code\.net\FileApp\bin\Debug\net8.0\FileApp.deps.json
+C:\Users\Utente\Coding\personal-code\.net\FileApp\bin\Debug\net8.0\FileApp.runtimeconfig.json
+C:\Users\Utente\Coding\personal-code\.net\FileApp\bin\Debug\net8.0\FileApp.dll
+C:\Users\Utente\Coding\personal-code\.net\FileApp\bin\Debug\net8.0\FileApp.pdb
+C:\Users\Utente\Coding\personal-code\.net\FileApp\obj\Debug\net8.0\FileApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\Coding\personal-code\.net\FileApp\obj\Debug\net8.0\FileApp.AssemblyInfoInputs.cache
+C:\Users\Utente\Coding\personal-code\.net\FileApp\obj\Debug\net8.0\FileApp.AssemblyInfo.cs
+C:\Users\Utente\Coding\personal-code\.net\FileApp\obj\Debug\net8.0\FileApp.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Coding\personal-code\.net\FileApp\obj\Debug\net8.0\FileApp.sourcelink.json
+C:\Users\Utente\Coding\personal-code\.net\FileApp\obj\Debug\net8.0\FileApp.dll
+C:\Users\Utente\Coding\personal-code\.net\FileApp\obj\Debug\net8.0\refint\FileApp.dll
+C:\Users\Utente\Coding\personal-code\.net\FileApp\obj\Debug\net8.0\FileApp.pdb
+C:\Users\Utente\Coding\personal-code\.net\FileApp\obj\Debug\net8.0\FileApp.genruntimeconfig.cache
+C:\Users\Utente\Coding\personal-code\.net\FileApp\obj\Debug\net8.0\ref\FileApp.dll
