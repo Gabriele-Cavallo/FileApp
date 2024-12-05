@@ -13,7 +13,29 @@
 // Console.WriteLine(flh);
 
 //public static System.IO.StreamWriter AppendTxt (string path);
-string path = "/myfile.txt";
+// string path = "files/myfile.txt";
+
+string dirName = "files";
+DirectoryInfo di;
+if (!Directory.Exists(dirName))
+{
+  di = Directory.CreateDirectory(dirName);
+}else {
+    di = new DirectoryInfo(dirName);
+}
+foreach (var file in di.GetFiles())
+{
+    var fw = file.AppendText();
+    fw.WriteLine("This is a message");
+    fw.Close();
+    Console.WriteLine(file);
+}
+foreach (var file in di.GetFiles())
+{
+    file.Delete();
+    Console.WriteLine(file);
+}
+
 
 // using (StreamWriter sw = File.AppendText(path))
 // {
@@ -29,28 +51,28 @@ string path = "/myfile.txt";
 //     }
 // }
 
-try
-{
-    string[] lines = File.ReadAllLines(path);
-    foreach (var line in lines)
-    {
-        Console.WriteLine(line);
-    }
-}
-catch (FileNotFoundException)
-{
-    Console.WriteLine($"The file you provide {path} doesn't exist");
-}
-catch (Exception e)
-{
+// try
+// {
+//     string[] lines = File.ReadAllLines(path);
+//     foreach (var line in lines)
+//     {
+//         Console.WriteLine(line);
+//     }
+// }
+// catch (FileNotFoundException)
+// {
+//     Console.WriteLine($"The file you provide {path} doesn't exist");
+// }
+// catch (Exception e)
+// {
 
-    Console.WriteLine(e.Message);
-    Console.WriteLine(e.GetBaseException());
-}
-finally{
-    Console.WriteLine("This is finally");
-}
-Console.WriteLine("The code goes on");
+//     Console.WriteLine(e.Message);
+//     Console.WriteLine(e.GetBaseException());
+// }
+// finally{
+//     Console.WriteLine("This is finally");
+// }
+// Console.WriteLine("The code goes on");
 
 
 
